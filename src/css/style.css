@@ -120,10 +120,12 @@ a:visited {
 .menu-topo .geral-menu .lista-redes-sociais ul li .fa-instagram:not(hover) {
     transition: 0.5s;
 }
+
 .menu-topo .geral-menu .lista-redes-sociais ul li .fa-instagram:hover {
     transform: scale(1.2);
     transition: 0.5s;
 }
+
 .menu-topo .geral-menu .lista-redes-sociais ul li .fa-instagram {
     color: #D24301;
 }
@@ -131,10 +133,121 @@ a:visited {
 .menu-topo .geral-menu .lista-redes-sociais ul li .fa-pinterest:not(hover) {
     transition: 0.5s;
 }
+
 .menu-topo .geral-menu .lista-redes-sociais ul li .fa-pinterest:hover {
     transform: scale(1.2);
     transition: 0.5s;
 }
+
 .menu-topo .geral-menu .lista-redes-sociais ul li .fa-pinterest {
     color: #9BDA11;
+}
+
+#quem-somos {}
+
+#quem-somos .quem-especialistas .especialista ul li a #quem-somos .quem-especialistas .especialista {
+    display: flex;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul {
+    display: flex;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li {
+    margin: 0;
+    padding: 5px;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li a {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 45px;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-tiktok:not(hover) {
+    transition: 0.5s;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-tiktok:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-tiktok {
+    color: #FFFFDC;
+    text-shadow: #D24301 1px 1px 3px;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-facebook-f:not(hover) {
+    transition: 0.5s;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-facebook-f:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-facebook-f {
+    color: #9BDA11;
+    text-shadow: #9BDA11 1px 1px 3px;
+
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-instagram:not(hover) {
+    transition: 0.5s;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-instagram:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-instagram {
+    color: #D24301;
+    text-shadow: #D24301 1px 1px 3px;
+
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-pinterest:not(hover) {
+    transition: 0.5s;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-pinterest:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista ul li .fa-pinterest {
+    color: #9BDA11;
+    text-shadow: #9BDA11 1px 1px 3px;
+
+}
+
+#quem-somos .quem-especialistas .especialista {
+    display: flex;
+}
+
+#quem-somos .quem-especialistas .colaborador {
+    display: flex;
+}
+
+#quem-somos .quem-especialistas .especialista .redes-sociais-especialista {
+    display: flex;
+}
+
+.btn-whatsapp-especialista {
+    color: black;
+    background-color: pink;
+    padding: 10px;
+}
+
+#projetos .portifolio-projeto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projetos .portifolio-projeto div {
+    margin: 20px;
+    padding: 10px;
 }
