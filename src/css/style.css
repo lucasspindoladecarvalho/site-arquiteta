@@ -143,11 +143,72 @@ a:visited {
     color: #9BDA11;
 }
 
-#quem-somos {
-    margin: auto;
+.highlight-topo {
+    height: 90vh;
+    background-color: #D24301;
 }
 
-#quem-somos .quem-especialistas .colaborador div{
+.highlight-topo img {}
+
+#quem-somos {
+    margin: auto;
+    text-align: center;
+}
+
+#quem-somos div .quem-empresa {
+    display: flex;
+    text-align: center;
+}
+
+#quem-somos div h2 {
+    margin: 100px auto 30px 100px;
+    text-align: left;
+    max-width: fit-content;
+}
+
+#quem-somos div .quem-empresa-p1 {
+    margin: 30px 150px 30px 100px;
+    text-align: left;
+    max-width: 600px;
+}
+
+#quem-somos div .quem-empresa-p2 {
+    margin: 30px 100px 30px 100px;
+    text-align: left;
+    max-width: 750px;
+}
+
+#quem-somos div h4 {
+    font-size: 20px;
+    margin: 30px 100px 30px 100px;
+    text-align: left;
+}
+
+#quem-somos .btn-faca-seu-projeto {
+    color: #FFFFDC;
+    padding: 10px;
+    background-color: #D24301;
+    align-self: center;
+}
+
+#quem-somos div .empresa-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#quem-somos div .empresa-img1 {
+    padding: 0;
+    display: flex;
+    margin: 50px 100px 30px 0;
+}
+
+#quem-somos div .empresa-img2 {
+    padding: 0;
+    display: flex;
+    margin: 30px 0 30px 100px;
+}
+
+#quem-somos .quem-especialistas .colaborador div {
     margin: auto;
 }
 
@@ -232,7 +293,6 @@ a:visited {
 
 #quem-somos .quem-especialistas .especialista {
     display: flex;
-    margin: auto;
 }
 
 #quem-somos .quem-especialistas .colaborador {
@@ -249,7 +309,7 @@ a:visited {
     padding: 10px;
 }
 
-#projetos{
+#projetos {
     text-align: center;
 }
 
@@ -263,9 +323,25 @@ a:visited {
     padding: 10px;
 }
 
-#projetos .btn-faca-seu-projeto{
+#projetos .btn-faca-seu-projeto {
     background-color: pink;
     color: black;
     padding: 10px;
     margin: 10px auto;
+}
+
+#faca-projeto-conosco {
+    margin: auto;
+    text-align: center;
+}
+
+#faca-projeto-conosco p {
+    margin: 20px;
+}
+
+#faca-projeto-conosco a {
+    color: black;
+    background-color: pink;
+    padding: 10px;
+    margin: 20px;
 }
