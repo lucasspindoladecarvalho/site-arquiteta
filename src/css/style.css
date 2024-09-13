@@ -151,13 +151,13 @@ a:visited {
 .highlight-topo img {}
 
 #quem-somos {
-    margin: auto;
-    text-align: center;
+    /* margin: auto; */
+    /* text-align: center; */
 }
 
 #quem-somos div .quem-empresa {
     display: flex;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #quem-somos div h2 {
@@ -185,10 +185,13 @@ a:visited {
 }
 
 #quem-somos .btn-faca-seu-projeto {
+    display: flex;
     color: #FFFFDC;
-    padding: 10px;
+    padding: 10px 20px;
+    margin: 50px auto;
+    width: fit-content;
     background-color: #D24301;
-    align-self: center;
+    border-radius: 5px;
 }
 
 #quem-somos div .empresa-img {
@@ -199,20 +202,42 @@ a:visited {
 #quem-somos div .empresa-img1 {
     padding: 0;
     display: flex;
-    margin: 50px 100px 30px 0;
+    margin: 30px 60px 30px 0;
 }
 
 #quem-somos div .empresa-img2 {
     padding: 0;
     display: flex;
-    margin: 30px 0 30px 100px;
+    margin: 30px 0 30px 60px;
 }
 
-#quem-somos .quem-especialistas .colaborador div {
-    margin: auto;
+/* #quem-somos .quem-especialistas {
+    margin: 30px auto;
 }
 
-#quem-somos .quem-especialistas .especialista ul li a #quem-somos .quem-especialistas .especialista {
+#quem-somos .quem-especialistas .colaborador-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+#quem-somos .quem-especialistas .colaborador-1 .especialista .especialista-dados {
+    margin: 30px 200px 30px 0;
+}
+
+#quem-somos .quem-especialistas .colaborador-1 .especialista .especialista-dados h2 {}
+
+
+#quem-somos .quem-especialistas .colaborador-2 {
+    margin: 30px auto;
+    justify-content: center;
+    display: flex;
+}
+
+#quem-somos .quem-especialistas .colaborador-2 {
+}
+
+#quem-somos .quem-especialistas .especialista ul li a {
     display: flex;
 }
 
@@ -295,10 +320,6 @@ a:visited {
     display: flex;
 }
 
-#quem-somos .quem-especialistas .colaborador {
-    display: flex;
-}
-
 #quem-somos .quem-especialistas .especialista .redes-sociais-especialista {
     display: flex;
 }
@@ -307,10 +328,16 @@ a:visited {
     color: black;
     background-color: pink;
     padding: 10px;
-}
+} */
 
 #projetos {
     text-align: center;
+}
+
+#projetos h1 {
+    margin: 80px auto;
+    font-size: 40px;
+    color: #D24301;
 }
 
 #projetos .portifolio-projeto {
@@ -323,25 +350,179 @@ a:visited {
     padding: 10px;
 }
 
-#projetos .btn-faca-seu-projeto {
-    background-color: pink;
-    color: black;
+#projetos .portifolio-projeto div p {
+    font-size: 24px;
+    margin: 30px;
     padding: 10px;
-    margin: 10px auto;
+    color: #D24301;
+}
+
+#projetos .btn-faca-seu-projeto {
+    color: #FFFFDC;
+    background-color: #D24301;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+#neuroarquitetura {}
+
+#neuroarquitetura h1 {
+    color: #D24301;
+    font-size: 40px;
+    justify-content: left;
+    margin: 50px auto;
+}
+
+#neuroarquitetura p {
+    font-size: 30px;
+    margin: 50px auto;
+    line-height: 60px;
+}
+
+#neuroarquitetura div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#neuroarquitetura div {
+    margin: 50px 100px;
 }
 
 #faca-projeto-conosco {
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
 }
 
+
+#faca-projeto-conosco h1 {
+    color: #D24301;
+    font-size: 40px;
+}
+
+#faca-projeto-conosco .img-faca-projetos {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+
 #faca-projeto-conosco p {
-    margin: 20px;
+    margin: 20px auto 50px auto;
+    font-size: 20px;
+    line-height: 50px;
 }
 
 #faca-projeto-conosco a {
-    color: black;
-    background-color: pink;
+    color: #FFFFDC;
+    background-color: #D24301;
     padding: 10px;
-    margin: 20px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    margin: 50px 0 20px 0;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #FFFFDC;
+}
+
+
+.footer .menu-bottom {
+    margin-top: 30px;
+}
+
+.footer .menu-bottom ul li {
+    line-height: 30px;
+}
+
+.footer .menu-bottom ul li a {
+    color: #FFFFDC;
+}
+
+.footer .info-bottom {
+    margin: 30px 0 30px 0;
+    line-height: 25px;
+}
+
+.footer .redes-sociais-bottom {
+    margin: 30px 0 30px 0;
+}
+
+.footer .redes-sociais-bottom ul li{
+    display: flex;
+}
+
+/* .footer .redes-sociais-bottom ul li a{
+    color: #FFFFDC;    
+} */
+
+.footer .redes-sociais-bottom ul {
+    display: flex;
+}
+
+.footer .redes-sociais-bottom ul li {
+    margin: 30px 10px 10px 10px;
+    padding: 5px;
+}
+
+.footer .redes-sociais-bottom ul li a {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 45px;
+}
+
+.footer .redes-sociais-bottom ul li .fa-tiktok:not(hover) {
+    transition: 0.5s;
+}
+
+.footer .redes-sociais-bottom ul li .fa-tiktok:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+
+.footer .redes-sociais-bottom ul li .fa-tiktok {
+    color: #FFFFDC;
+}
+
+.footer .redes-sociais-bottom ul li .fa-facebook-f:not(hover) {
+    transition: 0.5s;
+}
+
+.footer .redes-sociais-bottom ul li .fa-facebook-f:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+
+.footer .redes-sociais-bottom ul li .fa-facebook-f {
+    color: #9BDA11;
+}
+
+.footer .redes-sociais-bottom ul li .fa-instagram:not(hover) {
+    transition: 0.5s;
+}
+
+.footer .redes-sociais-bottom ul li .fa-instagram:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.footer .redes-sociais-bottom ul li .fa-instagram {
+    color: #D24301;
+}
+
+.footer .redes-sociais-bottom ul li .fa-pinterest:not(hover) {
+    transition: 0.5s;
+}
+
+.footer .redes-sociais-bottom ul li .fa-pinterest:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.footer .redes-sociais-bottom ul li .fa-pinterest {
+    color: #9BDA11;
 }
